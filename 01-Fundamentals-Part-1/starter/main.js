@@ -46,3 +46,27 @@ console.log(typeof isIsland);
 */
 
 
+/*
+
+let, const and var
+
+   Définissez la valeur de la variable « language » en fonction de la langue parlée là où vous vivez (certains pays comptent plusieurs langues, mais choisissez-en une seule).
+
+Réfléchissez aux variables qui devraient être des variables « const » (quelles valeurs ne changeront jamais, et lesquelles pourraient changer ?). Ensuite, définissez ces variables comme « const ».
+
+Essayez maintenant de modifier l'une des variables ainsi définies, et observez ce qui se passe.
+
+Traduit avec DeepL.com (version gratuite)
+
+language = "french";
+const capital = true;
+
+language = "dutch";
+capital = false;
+
+
+console.log(capital + language);
+
+
+ */
+
