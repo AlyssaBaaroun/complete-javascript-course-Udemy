@@ -70,3 +70,38 @@ console.log(capital + language);
 
  */
 
+
+/*
+
+Basic operateurs
+
+Si votre pays était divisé en deux, et que chaque moitié comptait la moitié de la population, combien de personnes vivraient alors dans chacune d'elles ?
+
+Augmentez la population de votre pays de 1 et affichez le résultat dans la console.
+
+La Finlande compte 6 millions d'habitants. Votre pays compte-t-il plus d'habitants que la Finlande ?
+
+La population moyenne d'un pays est de 33 millions d'habitants. Votre pays compte-t-il moins d'habitants que la moyenne ?
+
+À partir des variables que vous avez créées, créez une nouvelle variable « description » contenant une chaîne de caractères au format suivant : « Le Portugal se trouve en Europe, et ses 11 millions d'habitants parlent le portugais».
+
+
+let country = 1000;
+console.log(country / 2);
+
+country++;
+console.log(country);
+
+const finlandPop = 6000000;
+console.log(finlandPop <= country);
+
+const countryAverage = 33000000;
+console.log(countryAverage >= country);
+
+const description = `Le Portugal se trouve en Europe, et ses 11 millions d'habitants parlent le portugais`;
+console.log(description);
+
+*/
+
+
+
