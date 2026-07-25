@@ -104,4 +104,92 @@ console.log(description);
 */
 
 
+/*CHALLENGE #1
+
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height) (mass in kg and height in meters).
+
+Your task is to write some code to help them:
+
+    Store Mark's and John's mass and height in variables called massMark, heightMark, massJohn and heightJohn.
+
+    Calculate both their BMIs using the formula, and store the results in two variables called BMIMark and BMIJohn.
+
+    Log the value of BMIMark and BMIJohn to the console.
+
+    BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a higher BMI than John. Log it to the console too
+
+TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
+
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+
+
+/////test data 1/////
+
+let massMark = 78;
+let massJohn = 92 ;
+//////////////////////
+let heightMark = 169 ;
+let heightJohn = 195 ;
+
+let BMIMark =  massMark / (heightMark * heightMark);
+let BMIJohn= massJohn / (heightJohn * heightJohn);
+
+console.log(BMIJohn, BMIMark);
+
+let markHigherBMI = BMIMark > BMIJohn;
+
+console.log(markHigherBMI);
+
+/////test data 2/////
+
+massMark = 95;
+massJohn = 85;
+
+heightMark = 188;
+heightJohn = 176;
+
+BMIMark =  massMark / (heightMark * heightMark);
+BMIJohn= massJohn / (heightJohn * heightJohn);
+
+console.log(BMIJohn, BMIMark);
+
+markHigherBMI = BMIMark > BMIJohn;
+
+console.log(markHigherBMI);
+
+
+
+
+
+
+Strings and Template Literals
+
+Recreate the description variable from the last assignment, this time using the template literal syntax.
+let country = 'Belgium';
+let continent = 'Europe';
+let population = 11000000;
+const description = `Le ${country} se trouve en ${continent}, et ses ${population} millions d'habitants parlent le portugais`;
+console.log(description);
+
+///////////////
+
+Taking Decisions: if / else Statements
+
+    If your country's population is greater than 33 million, log a string like this to the console: "Portugal's population is 22 million below average" (the 22 is the average of 33 minus the country's population).
+
+    After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
+
+
+let population = 40;
+
+if (population > 33) {
+    const popLeft = population - 33;
+    console.log(`Belgium's populations is ${popLeft} below average `)
+}
+
+
+
+*/
+
+
 
