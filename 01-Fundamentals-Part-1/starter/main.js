@@ -187,9 +187,23 @@ if (population > 33) {
     console.log(`Belgium's populations is ${popLeft} below average `)
 }
 
+/////////////////
 
+Type Conversion and Coercion
+
+    Predict the result of these 5 operations without executing them:
+
+console.log('9' - '5'); // -> 4 ?
+console.log('19' - '13' + '17'); // -> 1617
+console.log('19' - '13' + 17); // -> 33
+console.log('123' < 57); // -> NaN
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 18
 
 */
 
-
+console.log('9' - '5'); // -> 4 ?
+console.log('19' - '13' + '17'); // -> 617
+console.log('19' - '13' + 17); // -> 23
+console.log('123' < 57); // -> False
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
 
